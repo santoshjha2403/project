@@ -2,8 +2,7 @@ const express = require ("express");
 const apiRoutes = require('./routes/apis')
 const port = 3000
 
-const app = express();
-
+const app = express()
 app.use(express.json());
 
 app.use(express.urlencoded({extended:true}))
